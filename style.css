@@ -1,0 +1,31 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', cursive;
+    margin: 0 25px 0 25px ;
+}
+.qr{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    margin: 100px auto;
+    padding: 15px;
+}
+.image{
+    width: 100%;
+    border-radius: 15px;
+}
+.p1{
+    font-weight: 700;
+    text-align: center;
+    font-size:x-large;
+    color: hsl(218, 44%, 22%);
+}
+.p2{
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+}
+@media (min-width: 1440px) {
+    body{
+        width: 300px;
+        margin: 250px auto;
+    }
+}
